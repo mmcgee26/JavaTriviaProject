@@ -1,0 +1,159 @@
+/*ITIS 3135 Project css file*/
+
+
+body{ /*styling for body*/
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+    background-color: lightyellow;
+    text-align: center;
+    border: 2px solid black;
+}
+.question{ /*styling for each question */
+    font-weight: 600;
+}
+.answers {/*styling for answers*/
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{ /*styling for the submit button*/
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: #38a;
+}
+#previous{     /*styling for previous button */
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#previous:hover{
+    background-color: #38a;
+}
+#next{/*styling for next button */
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#next:hover{
+    background-color: #38a;
+}
+#help{     /*styling for help button */
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#help:hover{
+    background-color: #38a;
+}
+.slide{ /*styling for the slides, this is important for pagination*/
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 100%;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{ /*styling for the active slide, the one currently being shown*/
+  opacity: 1;
+  z-index: 1;
+}
+.quiz-container{ /*styling for the quiz container as a whole*/
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+p /*styling for p tags */
+{
+	font-size:20px;
+}
+img { /*styling for images, even though there arent any yet*/
+	border: groove;
+	border-width: 2px;
+}
+
+
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
